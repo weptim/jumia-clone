@@ -1,0 +1,81 @@
+/* global styles */
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:1em;
+	background: #f4f4f4;
+	line-height: 1.5;
+	color: #111;
+	scroll-behavior: smooth;
+}
+.wrapper {
+	width:90%;
+	margin:auto;
+	background: #fff;
+}
+img {
+	width:100%;
+	height: auto;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.flex {
+	display: flex;
+	padding-left: 1em;
+}
+/* naavbar */
+#navbar {
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	z-index: 100;
+}
+#navbar  .wrapper{
+display: grid;
+grid-template-columns: 1fr 4fr 1fr;
+}
+.details-for-user {
+	display: flex;
+}
+/* main-header */
+#main-header{
+display: grid;
+grid-template-columns: 1fr 4fr 1fr;
+}
+/* main-header aside */
+.main-header-aside h3 {
+	font-size: 0.75em;
+}
+.main-header-aside p {
+	font-size: 0.5em;
+}
+.tips .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+}
+/* grids */
+.grid-two {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap:0.5em;
+}
+.grid-three {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.grid-six {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+.grid-four {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
